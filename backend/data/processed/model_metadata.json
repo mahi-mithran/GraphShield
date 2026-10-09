@@ -1,0 +1,16 @@
+{
+  "model_name": "FraudGraphSAGE",
+  "in_channels": 8,
+  "hidden_channels": 64,
+  "out_channels": 32,
+  "test_accuracy": 100.0,
+  "test_precision": 100.0,
+  "test_recall": 100.0,
+  "test_f1": 100.0,
+  "test_roc_auc": 100.0,
+  "risk_thresholds": {
+    "FRAUD": 0.7,
+    "MID_LEVEL": 0.3,
+    "GENUINE": "<0.3"
+  }
+}
